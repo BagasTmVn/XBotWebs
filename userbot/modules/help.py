@@ -25,11 +25,12 @@ async def help(event):
             await event.delete()
     else:
         await event.edit(f"**╭━━━━━━━━━━━━━━━━━━━━━╮**\
-            \n│   Help for [🔥XBOT-REMIX🔥]\
+            \n│   Panduan [UserButut]\
             \n╰━━━━━━━━━━━━━━━━━━━━━╯ \
             \n╭━━━━━━━━━━━━━━━━━━━━━╮\
             \n│   Untuk melihat lengkap Command\
             \n│   Contoh: .help <nama module>\
+            \n│   Kalo Bingung Gausah Make Anjg\
             \n│   Modules Aktif: {len(modules)}\
            \n╰━━━━━━━━━━━━━━━━━━━━━╯")
         string = ""
@@ -38,6 +39,6 @@ async def help(event):
             string += "`\t• "
         await event.reply(f"•{string}•"
                           "\n╾─────────────────────╼\
-                          \n   __MOD BY__ :°IᎷ▸ᷝᷟ͢ƒiηɇͥ ͫ། ツ")
+                          \n   __MOD BY_ :BrokenUsr")
         await asyncio.sleep(100)
         await event.delete()
