@@ -37,7 +37,7 @@ KANGING_STR = [
 ]
 
 
-@register(outgoing=True, pattern=r"^\.(?:colong|kang)\s?(.)?")
+@register(outgoing=True, pattern=r"^\$(?:maling|kang)\s?(.)?")
 async def kang(args):
     user = await bot.get_me()
     if not user.username:
